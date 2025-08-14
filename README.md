@@ -5,9 +5,15 @@ User Directory Viewer Application
 
 npm run start
 
+<img width="1250" height="828" alt="image" src="https://github.com/user-attachments/assets/788b51a0-c62e-4b9a-9c1d-6ff6b1ed12c5" />
+
+
 ## How to start Storybook
 
 npm run storybook
+
+<img width="1647" height="1313" alt="image" src="https://github.com/user-attachments/assets/168975be-2735-4c71-a10f-950db170631c" />
+
 
 ## Time spent on the challenge
 
@@ -18,7 +24,8 @@ npm run storybook
 
 ## Any decisions or trade-offs made
 
-- Most Components are from PrimeReact
+- Components are created from PrimeReact
 - Modules vs Scenes approach
-    - Modules are fully reusable and customizable components
-    - Scenes are pages that use modules that may also have their own components specific to the scene
+    - Modules are fully reusable and customizable components.
+    - Scenes are pages that use modules that may also have their own components specific to the scene.
+    - This adds a few extra steps to creating new components, but promises scalability and reusability as the application grows. 
