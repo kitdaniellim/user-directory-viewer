@@ -24,14 +24,20 @@ export const UserDetails: React.FC<UserDetailsProps> = () => {
       </div>
       {!loading && user ? (
         <Panel header="User Details">
-          <div className="grid sm:grid-cols-2 gap-4 items-start">
-            {/* Left column: Profile image, Name & Username (no title), then Company */}
+          <div className="grid sm:grid-cols-2 gap-4 items-start w-full">
             <div className="flex flex-col gap-3">
-              <UserCard imageSrc="/images/default_pfp.jpg" name={user.name} username={user.username} />
-              <UserCard title="Company Information" website={user.website} company={user.company} />
+              <UserCard
+                imageSrc="/images/default_pfp.jpg"
+                name={user.name}
+                username={user.username}
+              />
+              <UserCard
+                title="Company Information"
+                website={user.website}
+                company={user.company}
+              />
             </div>
 
-            {/* Right column: Personal Information */}
             <div>
               <UserCard
                 title="Personal Information"
@@ -45,9 +51,7 @@ export const UserDetails: React.FC<UserDetailsProps> = () => {
           </div>
         </Panel>
       ) : (
-        <div className="flex justify-center py-8">
-          <Spinner />
-        </div>
+        <Spinner />
       )}
     </div>
   );

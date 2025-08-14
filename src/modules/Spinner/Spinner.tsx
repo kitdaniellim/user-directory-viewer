@@ -1,21 +1,16 @@
 import { ProgressSpinner } from "primereact/progressspinner";
-
-export type SpinnerProps = {
-  size?: number | string; // e.g. 40 or "40px"
-  strokeWidth?: number | string; // e.g. 6
-  className?: string;
-};
+import type { SpinnerProps } from "./spinner.types";
 
 export function Spinner(props: SpinnerProps) {
   const { size = 40, strokeWidth = 6, className } = props;
 
-  const style =
-    typeof size === "number"
-      ? { width: `${size}px`, height: `${size}px` }
-      : { width: size, height: size };
-
   return (
-    <ProgressSpinner style={style} strokeWidth={String(strokeWidth)} className={className} />
+    <div className="flex justify-center py-8">
+      <ProgressSpinner
+        style={{ width: `${size}px`, height: `${size}px` }}
+        strokeWidth={String(strokeWidth)}
+        className={className}
+      />
+    </div>
   );
 }
-

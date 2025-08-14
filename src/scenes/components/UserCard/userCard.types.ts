@@ -11,4 +11,5 @@ export interface UserCardProps {
   phone?: string;
   website?: string;
   company?: Company;
+  className?: string;
 }
