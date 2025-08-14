@@ -28,4 +28,9 @@ npm run storybook
 - Modules vs Scenes approach
     - Modules are fully reusable and customizable components.
     - Scenes are pages that use modules that may also have their own components specific to the scene.
-    - This adds a few extra steps to creating new components, but promises scalability and reusability as the application grows. 
+    - This adds a few extra steps to creating new components, but promises scalability and reusability as the application grows.
+ 
+- Component-Based Architecture
+    - Component Types, Hook Usage, Styles, and UI are all contained within the same component folder but in separate files.
+    - Main benefit is code readability and organization, with extra effort and time as a tradeoff.
+
