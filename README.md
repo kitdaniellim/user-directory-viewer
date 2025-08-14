@@ -1,10 +1,24 @@
 # user-directory-viewer
-ADACA Tech Test
+User Directory Viewer Application
 
-o How to run the app
+## How to run the app
 
-o How to start Storybook
+npm run start
 
-o Time spent on the challenge
+## How to start Storybook
 
-o Any decisions or trade-offs made
+npm run storybook
+
+## Time spent on the challenge
+
+30 mins - Project Setup
+1.5 hrs - rendering users table
+1.5 hrs - Implementing user details card
+30 mins - styling, refining, and polishing
+
+## Any decisions or trade-offs made
+
+- Most Components are from PrimeReact
+- Modules vs Scenes approach
+    - Modules are fully reusable and customizable components
+    - Scenes are pages that use modules that may also have their own components specific to the scene
