@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer utilities {
+  .p-datatable .p-datatable-tbody > tr:hover,
+  .p-datatable .p-datatable-tbody > tr:hover > td {
+    cursor: pointer;
+  }
+
+  /* unify spinner stroke color across app */
+  .p-progress-spinner .p-progress-spinner-circle {
+    stroke: var(--primary-color) !important;
+  }
+}
