@@ -8,6 +8,9 @@ npm run start
 <img width="1250" height="828" alt="image" src="https://github.com/user-attachments/assets/788b51a0-c62e-4b9a-9c1d-6ff6b1ed12c5" />
 
 
+<img width="1301" height="821" alt="image" src="https://github.com/user-attachments/assets/a4f122b2-8db9-4ebe-855f-8fc217097cf8" />
+
+
 ## How to start Storybook
 
 npm run storybook
